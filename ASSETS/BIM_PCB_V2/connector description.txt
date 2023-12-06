@@ -1,0 +1,24 @@
+COMM:
+- A
+- B
+- GND
+- 5V
+
+DISPLAY
+- 3V3
+- DI
+- SCK
+- DC
+- CS
+- RST
+- Backlight
+- BUZZER
+- BUTTON
+- GND
+
+PROGRAM
+- SWD
+- SCK
+- SWO
+- GND
+- RESET
