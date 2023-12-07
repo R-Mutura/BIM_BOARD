@@ -5,6 +5,689 @@
   (paper "A4")
 
   (lib_symbols
+    (symbol "Device:Q_NMOS_GSD" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "Q" (at 5.08 1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "Q_NMOS_GSD" (at 5.08 -1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 5.08 2.54 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "transistor NMOS N-MOS N-MOSFET" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "N-MOSFET transistor, gate/source/drain" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Q_NMOS_GSD_0_1"
+        (polyline
+          (pts
+            (xy 0.254 0)
+            (xy -2.54 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.254 1.905)
+            (xy 0.254 -1.905)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.27)
+            (xy 0.762 -2.286)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 0.508)
+            (xy 0.762 -0.508)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 2.286)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 2.54)
+            (xy 2.54 1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 -2.54)
+            (xy 2.54 0)
+            (xy 0.762 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.778)
+            (xy 3.302 -1.778)
+            (xy 3.302 1.778)
+            (xy 0.762 1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 0)
+            (xy 2.032 0.381)
+            (xy 2.032 -0.381)
+            (xy 1.016 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 2.794 0.508)
+            (xy 2.921 0.381)
+            (xy 3.683 0.381)
+            (xy 3.81 0.254)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.302 0.381)
+            (xy 2.921 -0.254)
+            (xy 3.683 -0.254)
+            (xy 3.302 0.381)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center 1.651 0) (radius 2.794)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (circle (center 2.54 -1.778) (radius 0.254)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (circle (center 2.54 1.778) (radius 0.254)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+      )
+      (symbol "Q_NMOS_GSD_1_1"
+        (pin input line (at -5.08 0 0) (length 2.54)
+          (name "G" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 5.08 270) (length 2.54)
+          (name "D" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:R_US" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "R" (at 2.54 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "R_US" (at -2.54 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 1.016 -0.254 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "R res resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Resistor, US symbol" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "R_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "R_US_0_1"
+        (polyline
+          (pts
+            (xy 0 -2.286)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.286)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -0.762)
+            (xy 1.016 -1.143)
+            (xy 0 -1.524)
+            (xy -1.016 -1.905)
+            (xy 0 -2.286)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0.762)
+            (xy 1.016 0.381)
+            (xy 0 0)
+            (xy -1.016 -0.381)
+            (xy 0 -0.762)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.286)
+            (xy 1.016 1.905)
+            (xy 0 1.524)
+            (xy -1.016 1.143)
+            (xy 0 0.762)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "R_US_1_1"
+        (pin passive line (at 0 3.81 270) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
   )
 
+  (junction (at 136.525 73.66) (diameter 0) (color 0 0 0 0)
+    (uuid 7681ae54-5e93-4b7d-8da8-26d67fede301)
+  )
+  (junction (at 136.525 90.17) (diameter 0) (color 0 0 0 0)
+    (uuid 94e6dc94-e5c4-47bc-b2ec-33606c46b653)
+  )
+  (junction (at 172.085 90.17) (diameter 0) (color 0 0 0 0)
+    (uuid a10944e1-a445-46f3-8943-e9d5ffaa2434)
+  )
+
+  (wire (pts (xy 136.525 73.66) (xy 151.765 73.66))
+    (stroke (width 0) (type default))
+    (uuid 006a501e-9fe0-46f3-b0cf-8007ff31c339)
+  )
+  (wire (pts (xy 172.085 90.17) (xy 210.82 90.17))
+    (stroke (width 0) (type default))
+    (uuid 01f976d7-bed6-46e0-bce4-1afb709626d3)
+  )
+  (wire (pts (xy 172.085 86.36) (xy 172.085 90.17))
+    (stroke (width 0) (type default))
+    (uuid 08de3f3b-4434-455d-b924-bdfc595c2906)
+  )
+  (wire (pts (xy 151.765 73.66) (xy 151.765 82.55))
+    (stroke (width 0) (type default))
+    (uuid 160b3026-e335-41cb-89f4-78923c486041)
+  )
+  (wire (pts (xy 120.015 90.17) (xy 136.525 90.17))
+    (stroke (width 0) (type default))
+    (uuid 41051fed-12db-42fe-beaa-ac9f71d2a9f7)
+  )
+  (wire (pts (xy 156.845 90.17) (xy 172.085 90.17))
+    (stroke (width 0) (type default))
+    (uuid 6aeb8579-c283-4e05-a4b4-f68a94b258db)
+  )
+  (wire (pts (xy 122.555 73.66) (xy 136.525 73.66))
+    (stroke (width 0) (type default))
+    (uuid 844df75f-eac5-4532-a576-86f70b2925bd)
+  )
+  (wire (pts (xy 98.425 90.17) (xy 112.395 90.17))
+    (stroke (width 0) (type default))
+    (uuid a3df2029-8471-46e7-a598-45717d1170bb)
+  )
+  (wire (pts (xy 136.525 90.17) (xy 146.685 90.17))
+    (stroke (width 0) (type default))
+    (uuid b3e4f7d5-cfc8-4716-8d46-ce64167491fd)
+  )
+  (wire (pts (xy 172.085 78.74) (xy 172.085 73.66))
+    (stroke (width 0) (type default))
+    (uuid c95cb5a2-ab87-4517-b0e4-368ca7abdbff)
+  )
+  (wire (pts (xy 172.085 73.66) (xy 175.895 73.66))
+    (stroke (width 0) (type default))
+    (uuid e24ec083-4359-4fa5-83e0-f5a086b754c3)
+  )
+  (wire (pts (xy 136.525 86.36) (xy 136.525 90.17))
+    (stroke (width 0) (type default))
+    (uuid e4f5d14b-c383-43d8-82ff-03ab980aa3d2)
+  )
+  (wire (pts (xy 136.525 78.74) (xy 136.525 73.66))
+    (stroke (width 0) (type default))
+    (uuid f0709908-0caa-4e74-92d2-91df1b5712c4)
+  )
+
+  (text "LOW LEVEL SIDE" (at 118.745 69.85 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
+    (uuid 3dd7c002-4a72-4b7d-b2b0-a2d44107d964)
+  )
+  (text "HIGH LEVEL SIDE" (at 172.085 69.85 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
+    (uuid 7e132546-26ae-4f35-a29b-ab884a2e24ea)
+  )
+  (text "BI-DIRECTIONAL LEVEL TRANSLATOR \nMOSFET - IMPLEMENTATION"
+    (at 97.79 60.325 0)
+    (effects (font (face "Algerian") (size 5 5) bold) (justify left bottom))
+    (uuid d9c6ef24-dbf5-4176-8775-34f02079f5b2)
+  )
+
+  (hierarchical_label "LOW_SIDE_POWER_LEVEL" (shape bidirectional) (at 122.555 73.66 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 24054b77-2efa-4b55-b338-20c04ff31163)
+  )
+  (hierarchical_label "LOW_SIDE_LOGIC_SIGNAL" (shape bidirectional) (at 98.425 90.17 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 492aa43d-4cea-4f42-bba2-854a9b407a1b)
+  )
+  (hierarchical_label "HIGH_SIDE_LOGIC_SIGNAL" (shape bidirectional) (at 210.82 90.17 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid a0f66083-0aa3-4099-84ed-43698a5963db)
+  )
+  (hierarchical_label "HIGH_SIDE_POWER_LEVEL" (shape bidirectional) (at 175.895 73.66 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid a50680ff-b6f1-4816-9706-6c853b03965c)
+  )
+
+  (symbol (lib_id "Device:Q_NMOS_GSD") (at 151.765 87.63 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4c42a4bf-5060-4562-b982-fad7f1a26223)
+    (property "Reference" "Q2" (at 151.765 94.615 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "2N7002" (at 151.765 97.155 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 154.305 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 151.765 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 49fac658-5ac3-4fb8-9170-2f1b70d270f3))
+    (pin "2" (uuid 71cb9cdf-81f1-4b8f-be93-98ae2420bef8))
+    (pin "3" (uuid ac24da1e-ead8-4111-9aa6-b4fc32252980))
+    (instances
+      (project "soilpal_v2_display"
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "Q2") (unit 1)
+        )
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "Q2") (unit 1)
+        )
+      )
+      (project "SmartCaravan"
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/4b192ea4-b50c-4f29-914a-cb19b995dc6c"
+          (reference "Q2") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/67648d4e-4082-43b9-a0d1-7155e8bb1efd"
+          (reference "Q3") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/ba1df6c2-c1e6-44ae-8b3d-dd996450ce77"
+          (reference "Q4") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/b4baabbf-1ea4-440a-9d55-ec64ff5e04c5"
+          (reference "Q5") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/7c63ae45-86df-4e05-bfa9-a69699819595"
+          (reference "Q6") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/e935d23e-356e-4ed7-923e-4ff3e9d1207b"
+          (reference "Q7") (unit 1)
+        )
+      )
+      (project "GSM_GPRS_MODULE_SIM7000G"
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "Q2") (unit 1)
+        )
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "Q2") (unit 1)
+        )
+      )
+      (project "BIM_PCB"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
+          (reference "Q9") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
+          (reference "Q10") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
+          (reference "Q11") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+          (reference "Q8") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
+          (reference "Q6") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
+          (reference "Q7") (unit 1)
+        )
+      )
+      (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
+        (path "/d5ed9ea7-1d20-4cba-b955-75adcb1b4a20"
+          (reference "Q2") (unit 1)
+        )
+      )
+      (project "ELIESTER_V2"
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "Q10") (unit 1)
+        )
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "Q9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 116.205 90.17 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c29b3c78-225d-4c2a-91ca-af67e4f40b70)
+    (property "Reference" "R16" (at 116.205 85.725 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1K" (at 116.205 88.265 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 116.459 89.154 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 116.205 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 01ee571d-a452-4abc-9669-a797df590bbb))
+    (pin "2" (uuid 5134b30a-29eb-4f49-bbdb-316022d3f328))
+    (instances
+      (project "soilpal_v2_display"
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R16") (unit 1)
+        )
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "SmartCaravan"
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/4b192ea4-b50c-4f29-914a-cb19b995dc6c"
+          (reference "R16") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/67648d4e-4082-43b9-a0d1-7155e8bb1efd"
+          (reference "R18") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/ba1df6c2-c1e6-44ae-8b3d-dd996450ce77"
+          (reference "R20") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/b4baabbf-1ea4-440a-9d55-ec64ff5e04c5"
+          (reference "R22") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/7c63ae45-86df-4e05-bfa9-a69699819595"
+          (reference "R24") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/e935d23e-356e-4ed7-923e-4ff3e9d1207b"
+          (reference "R26") (unit 1)
+        )
+      )
+      (project "GSM_GPRS_MODULE_SIM7000G"
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R16") (unit 1)
+        )
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "BIM_PCB"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
+          (reference "R51") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
+          (reference "R54") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
+          (reference "R57") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+          (reference "R48") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
+          (reference "R35") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
+          (reference "R45") (unit 1)
+        )
+      )
+      (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
+        (path "/d5ed9ea7-1d20-4cba-b955-75adcb1b4a20"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "ELIESTER_V2"
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R76") (unit 1)
+        )
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R69") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 136.525 82.55 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d7de783e-7704-408a-9aab-8c71bd71895e)
+    (property "Reference" "R16" (at 138.43 81.915 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10K" (at 138.43 84.455 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 137.541 82.804 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 136.525 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5822d96d-c7be-478e-9ed3-a8f0949ec8f5))
+    (pin "2" (uuid 63ab6fcd-e44c-4df2-b511-0472c7456500))
+    (instances
+      (project "soilpal_v2_display"
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R16") (unit 1)
+        )
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "SmartCaravan"
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/4b192ea4-b50c-4f29-914a-cb19b995dc6c"
+          (reference "R16") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/67648d4e-4082-43b9-a0d1-7155e8bb1efd"
+          (reference "R18") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/ba1df6c2-c1e6-44ae-8b3d-dd996450ce77"
+          (reference "R20") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/b4baabbf-1ea4-440a-9d55-ec64ff5e04c5"
+          (reference "R22") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/7c63ae45-86df-4e05-bfa9-a69699819595"
+          (reference "R24") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/e935d23e-356e-4ed7-923e-4ff3e9d1207b"
+          (reference "R26") (unit 1)
+        )
+      )
+      (project "GSM_GPRS_MODULE_SIM7000G"
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R16") (unit 1)
+        )
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "BIM_PCB"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
+          (reference "R49") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
+          (reference "R52") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
+          (reference "R55") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+          (reference "R46") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
+          (reference "R33") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
+          (reference "R36") (unit 1)
+        )
+      )
+      (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
+        (path "/d5ed9ea7-1d20-4cba-b955-75adcb1b4a20"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "ELIESTER_V2"
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R74") (unit 1)
+        )
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R67") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 172.085 82.55 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f83d5a01-b6cb-481c-b70a-a9ffa06341f1)
+    (property "Reference" "R17" (at 173.99 81.915 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10K" (at 173.99 84.455 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 173.101 82.804 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 172.085 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 12fc969f-fcc2-4bff-ba37-7e73c5d91bb7))
+    (pin "2" (uuid 920c6cf8-58b2-4c53-9bab-1ea23f86b27f))
+    (instances
+      (project "soilpal_v2_display"
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R17") (unit 1)
+        )
+        (path "/0f8c6740-d040-4ce5-9b68-f1b365682d4f/882dd2d8-3941-4c8a-8503-e0fde4fea083/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R17") (unit 1)
+        )
+      )
+      (project "SmartCaravan"
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/4b192ea4-b50c-4f29-914a-cb19b995dc6c"
+          (reference "R17") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/67648d4e-4082-43b9-a0d1-7155e8bb1efd"
+          (reference "R19") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/ba1df6c2-c1e6-44ae-8b3d-dd996450ce77"
+          (reference "R21") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/b4baabbf-1ea4-440a-9d55-ec64ff5e04c5"
+          (reference "R23") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/7c63ae45-86df-4e05-bfa9-a69699819595"
+          (reference "R25") (unit 1)
+        )
+        (path "/7543dfcb-36f2-4cd3-8ba8-a9efbe7f97b6/e935d23e-356e-4ed7-923e-4ff3e9d1207b"
+          (reference "R27") (unit 1)
+        )
+      )
+      (project "GSM_GPRS_MODULE_SIM7000G"
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R17") (unit 1)
+        )
+        (path "/7b5c61bb-3beb-4d85-afc0-546a503e9b5f/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R17") (unit 1)
+        )
+      )
+      (project "BIM_PCB"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
+          (reference "R50") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
+          (reference "R53") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
+          (reference "R56") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+          (reference "R47") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
+          (reference "R34") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
+          (reference "R40") (unit 1)
+        )
+      )
+      (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
+        (path "/d5ed9ea7-1d20-4cba-b955-75adcb1b4a20"
+          (reference "R17") (unit 1)
+        )
+      )
+      (project "ELIESTER_V2"
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/b27c05a5-0db8-40ac-9faa-2b77abef5682"
+          (reference "R75") (unit 1)
+        )
+        (path "/efe55700-0211-4481-aa01-7a7eb74def17/414f1577-4ce3-43d7-bbf4-7827eef840c4/3e85a5a0-554b-44dc-a879-1e045818e6b3"
+          (reference "R68") (unit 1)
+        )
+      )
+    )
+  )
 )

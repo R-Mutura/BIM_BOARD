@@ -1,0 +1,101 @@
+12-08 00:22:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
+12-08 00:22:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.9.16 (main, Apr  9 2023, 05:22:13) [MSC v.1934 64 bit (AMD64)]'
+12-08 00:22:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.2
+12-08 00:22:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
+12-08 00:22:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x0000011F8CB86DC0>
+12-08 00:22:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with Q6 as a reference
+12-08 00:22:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+12-08 00:22:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'Q6'
+Located on: ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR2']
+With filenames: ['SIM7000_GPRS_MODULE.kicad_sch', 'MOSFET_LOGIC_LEVEL_TRANSLATOR.kicad_sch']
+With sheet_id:['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR2']
+12-08 00:22:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('Q6', ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR2']), ('Q8', ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR']), ('Q10', ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR1']), ('Q9', ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR5']), ('Q7', ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR3']), ('Q11', ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR4'])]
+12-08 00:22:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+12-08 00:22:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'MOSFET_LOGIC_LEVEL_TRANSLATOR2', file:'MOSFET_LOGIC_LEVEL_TRANSLATOR.kicad_sch'
+12-08 00:22:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR'], ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR1'], ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR3'], ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR4'], ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR5']]
+12-08 00:22:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR2']
+12-08 00:22:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+12-08 00:22:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(3798, 85)
+12-08 00:22:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(3359, 85)
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'MOSFET_LOGIC_LEVEL_TRANSLATOR2', file:'MOSFET_LOGIC_LEVEL_TRANSLATOR.kicad_sch'
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR'], ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR1'], ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR3'], ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR4'], ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR5']]
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR'], ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR1'], ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR3'], ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR4'], ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR5']]
+on level: ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR2']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+12-08 00:22:40 root 332:updating GUI message: 'Preparing for replication'
+12-08 00:22:40 root 337:updating GUI with: 0
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
+12-08 00:22:40 root 337:updating GUI with: 50
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
+12-08 00:22:40 root 332:updating GUI message: 'Replicating footprints'
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
+12-08 00:22:40 root 337:updating GUI with: 0
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR']
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR1']
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR3']
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR4']
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR5']
+12-08 00:22:40 root 332:updating GUI message: 'Replicating tracks'
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR']
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR'] :[('VDD_EXT', 'VDD_EXT'), ('+3V3', '+3V3'), ('/SIM7000_GPRS_MODULE/GPS_RXD', '/SIM7000_GPRS_MODULE/Sim_DTR'), ('Net-(Q6-S)', 'Net-(Q8-S)'), ('/SIM7000_GPRS_MODULE/MOSFET_LOGIC_LEVEL_TRANSLATOR2/LOW_SIDE_LOGIC_SIGNAL', '/SIM7000_GPRS_MODULE/MOSFET_LOGIC_LEVEL_TRANSLATOR/LOW_SIDE_LOGIC_SIGNAL')]
+12-08 00:22:40 root 337:updating GUI with: 20
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR1']
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'SIM7000_GPRS_MODULE', 'GPS_RXD'] and dst net: ['', 'STM32FC8T6_MCU', 'TX1'], with src_net_depth=3, dst_net_depth=3, src_fp_depth=2, dst_fp_depth=2, match level 0.56
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'SIM7000_GPRS_MODULE', 'GPS_RXD'] and dst net: ['', 'STM32FC8T6_MCU', 'TX1'], with src_net_depth=3, dst_net_depth=3, src_fp_depth=2, dst_fp_depth=2, match level 0.56
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR1'] :[('VDD_EXT', 'VDD_EXT'), ('+3V3', '+3V3'), ('/SIM7000_GPRS_MODULE/MOSFET_LOGIC_LEVEL_TRANSLATOR2/LOW_SIDE_LOGIC_SIGNAL', '/SIM7000_GPRS_MODULE/MOSFET_LOGIC_LEVEL_TRANSLATOR1/LOW_SIDE_LOGIC_SIGNAL'), ('/SIM7000_GPRS_MODULE/GPS_RXD', '/STM32FC8T6_MCU/TX1'), ('Net-(Q6-S)', 'Net-(Q10-S)')]
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR3']
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR3'] :[('VDD_EXT', 'VDD_EXT'), ('+3V3', '+3V3'), ('/SIM7000_GPRS_MODULE/MOSFET_LOGIC_LEVEL_TRANSLATOR2/LOW_SIDE_LOGIC_SIGNAL', '/SIM7000_GPRS_MODULE/MOSFET_LOGIC_LEVEL_TRANSLATOR3/LOW_SIDE_LOGIC_SIGNAL'), ('Net-(Q6-S)', 'Net-(Q7-S)'), ('/SIM7000_GPRS_MODULE/GPS_RXD', '/SIM7000_GPRS_MODULE/GPS_TXD')]
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR4']
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'SIM7000_GPRS_MODULE', 'GPS_RXD'] and dst net: ['', 'STM32FC8T6_MCU', 'RX1'], with src_net_depth=3, dst_net_depth=3, src_fp_depth=2, dst_fp_depth=2, match level 0.66
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'SIM7000_GPRS_MODULE', 'GPS_RXD'] and dst net: ['', 'STM32FC8T6_MCU', 'RX1'], with src_net_depth=3, dst_net_depth=3, src_fp_depth=2, dst_fp_depth=2, match level 0.66
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR4'] :[('VDD_EXT', 'VDD_EXT'), ('+3V3', '+3V3'), ('/SIM7000_GPRS_MODULE/GPS_RXD', '/STM32FC8T6_MCU/RX1'), ('Net-(Q6-S)', 'Net-(Q11-S)'), ('/SIM7000_GPRS_MODULE/MOSFET_LOGIC_LEVEL_TRANSLATOR2/LOW_SIDE_LOGIC_SIGNAL', '/SIM7000_GPRS_MODULE/MOSFET_LOGIC_LEVEL_TRANSLATOR4/LOW_SIDE_LOGIC_SIGNAL')]
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR5']
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR5'] :[('VDD_EXT', 'VDD_EXT'), ('+3V3', '+3V3'), ('/SIM7000_GPRS_MODULE/MOSFET_LOGIC_LEVEL_TRANSLATOR2/LOW_SIDE_LOGIC_SIGNAL', '/SIM7000_GPRS_MODULE/MOSFET_LOGIC_LEVEL_TRANSLATOR5/LOW_SIDE_LOGIC_SIGNAL'), ('Net-(Q6-S)', 'Net-(Q9-S)'), ('/SIM7000_GPRS_MODULE/GPS_RXD', '/SIM7000_GPRS_MODULE/SIM_RI_(WAKE_HOST)')]
+12-08 00:22:40 root 332:updating GUI message: 'Replicating zones'
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating zones
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR']
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR'] :[('VDD_EXT', 'VDD_EXT'), ('+3V3', '+3V3'), ('/SIM7000_GPRS_MODULE/GPS_RXD', '/SIM7000_GPRS_MODULE/Sim_DTR'), ('Net-(Q6-S)', 'Net-(Q8-S)'), ('/SIM7000_GPRS_MODULE/MOSFET_LOGIC_LEVEL_TRANSLATOR2/LOW_SIDE_LOGIC_SIGNAL', '/SIM7000_GPRS_MODULE/MOSFET_LOGIC_LEVEL_TRANSLATOR/LOW_SIDE_LOGIC_SIGNAL')]
+12-08 00:22:40 root 337:updating GUI with: 20
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR1']
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'SIM7000_GPRS_MODULE', 'GPS_RXD'] and dst net: ['', 'STM32FC8T6_MCU', 'TX1'], with src_net_depth=3, dst_net_depth=3, src_fp_depth=2, dst_fp_depth=2, match level 0.56
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'SIM7000_GPRS_MODULE', 'GPS_RXD'] and dst net: ['', 'STM32FC8T6_MCU', 'TX1'], with src_net_depth=3, dst_net_depth=3, src_fp_depth=2, dst_fp_depth=2, match level 0.56
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR1'] :[('VDD_EXT', 'VDD_EXT'), ('+3V3', '+3V3'), ('/SIM7000_GPRS_MODULE/MOSFET_LOGIC_LEVEL_TRANSLATOR2/LOW_SIDE_LOGIC_SIGNAL', '/SIM7000_GPRS_MODULE/MOSFET_LOGIC_LEVEL_TRANSLATOR1/LOW_SIDE_LOGIC_SIGNAL'), ('/SIM7000_GPRS_MODULE/GPS_RXD', '/STM32FC8T6_MCU/TX1'), ('Net-(Q6-S)', 'Net-(Q10-S)')]
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR3']
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR3'] :[('VDD_EXT', 'VDD_EXT'), ('+3V3', '+3V3'), ('/SIM7000_GPRS_MODULE/MOSFET_LOGIC_LEVEL_TRANSLATOR2/LOW_SIDE_LOGIC_SIGNAL', '/SIM7000_GPRS_MODULE/MOSFET_LOGIC_LEVEL_TRANSLATOR3/LOW_SIDE_LOGIC_SIGNAL'), ('Net-(Q6-S)', 'Net-(Q7-S)'), ('/SIM7000_GPRS_MODULE/GPS_RXD', '/SIM7000_GPRS_MODULE/GPS_TXD')]
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR4']
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'SIM7000_GPRS_MODULE', 'GPS_RXD'] and dst net: ['', 'STM32FC8T6_MCU', 'RX1'], with src_net_depth=3, dst_net_depth=3, src_fp_depth=2, dst_fp_depth=2, match level 0.66
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'SIM7000_GPRS_MODULE', 'GPS_RXD'] and dst net: ['', 'STM32FC8T6_MCU', 'RX1'], with src_net_depth=3, dst_net_depth=3, src_fp_depth=2, dst_fp_depth=2, match level 0.66
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR4'] :[('VDD_EXT', 'VDD_EXT'), ('+3V3', '+3V3'), ('/SIM7000_GPRS_MODULE/GPS_RXD', '/STM32FC8T6_MCU/RX1'), ('Net-(Q6-S)', 'Net-(Q11-S)'), ('/SIM7000_GPRS_MODULE/MOSFET_LOGIC_LEVEL_TRANSLATOR2/LOW_SIDE_LOGIC_SIGNAL', '/SIM7000_GPRS_MODULE/MOSFET_LOGIC_LEVEL_TRANSLATOR4/LOW_SIDE_LOGIC_SIGNAL')]
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR5']
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR5'] :[('VDD_EXT', 'VDD_EXT'), ('+3V3', '+3V3'), ('/SIM7000_GPRS_MODULE/MOSFET_LOGIC_LEVEL_TRANSLATOR2/LOW_SIDE_LOGIC_SIGNAL', '/SIM7000_GPRS_MODULE/MOSFET_LOGIC_LEVEL_TRANSLATOR5/LOW_SIDE_LOGIC_SIGNAL'), ('Net-(Q6-S)', 'Net-(Q9-S)'), ('/SIM7000_GPRS_MODULE/GPS_RXD', '/SIM7000_GPRS_MODULE/SIM_RI_(WAKE_HOST)')]
+12-08 00:22:40 root 332:updating GUI message: 'Replicating text'
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR']
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR1']
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR3']
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR4']
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR5']
+12-08 00:22:40 root 332:updating GUI message: 'Replicating drawings'
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR']
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR1']
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR3']
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR4']
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['SIM7000_GPRS_MODULE', 'MOSFET_LOGIC_LEVEL_TRANSLATOR5']
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 259:Letting the user know there are some issues with replicated design
+12-08 00:22:40 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 263:Looks like the design has an exotic connectivity that the plugin might not handle properly
+ Make sure that you check the connectivity around:
+Footprint Q11, pad 3
+Footprint R53, pad 2
+Footprint Q10, pad 3
+Footprint R56, pad 2
+

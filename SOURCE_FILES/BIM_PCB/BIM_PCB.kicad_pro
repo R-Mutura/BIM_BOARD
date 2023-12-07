@@ -485,11 +485,11 @@
       "SIM7000_GPRS_MODULE"
     ],
     [
-      "b8fd65d3-20f9-4f84-9c4c-fba49c701f5a",
+      "ad201ec8-e911-4cc6-b434-19a9fff4949b",
       "MOSFET_LOGIC_LEVEL_TRANSLATOR2"
     ],
     [
-      "1e54ca72-5cdf-4874-a6a4-be1525037678",
+      "d71116eb-94f5-4d19-8fe2-1d5d56dfd59e",
       "MOSFET_LOGIC_LEVEL_TRANSLATOR3"
     ],
     [
@@ -509,12 +509,20 @@
       "CAN_TRANSCEIVER_ATA6561"
     ],
     [
-      "3e85a5a0-554b-44dc-a879-1e045818e6b3",
+      "57f051e4-1bb9-4052-b3bd-86c08fdbfa1f",
+      "MOSFET_LOGIC_LEVEL_TRANSLATOR"
+    ],
+    [
+      "9c83602d-c851-4def-afb0-48963dca7404",
+      "MOSFET_LOGIC_LEVEL_TRANSLATOR5"
+    ],
+    [
+      "16769502-6cd7-4d90-ac70-b9f1d3d3fa47",
       "MOSFET_LOGIC_LEVEL_TRANSLATOR1"
     ],
     [
-      "b27c05a5-0db8-40ac-9faa-2b77abef5682",
-      "MOSFET_LOGIC_LEVEL_TRANSLATOR"
+      "eba1f2a4-2c5d-4822-a4ed-1865479f0f6b",
+      "MOSFET_LOGIC_LEVEL_TRANSLATOR4"
     ]
   ],
   "text_variables": {}
