@@ -3294,7 +3294,7 @@
   (symbol (lib_id "Device:LED_Small") (at 276.225 149.225 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 116c58ea-5e0e-4682-80b4-cd96f8a0222f)
-    (property "Reference" "D13" (at 278.13 149.225 0)
+    (property "Reference" "D13" (at 278.511 149.479 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BLUE" (at 278.13 149.1615 0)
