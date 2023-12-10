@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 2.5,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,10 +45,16 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -85,7 +91,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -105,9 +111,9 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.19999999999999998,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.25,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -117,9 +123,9 @@
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.09999999999999999,
-        "min_via_diameter": 0.5,
+        "min_track_width": 0.19999999999999998,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.6,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -165,8 +171,30 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.185623,
+        0.2,
+        0.254,
+        0.35,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -523,6 +551,26 @@
     [
       "eba1f2a4-2c5d-4822-a4ed-1865479f0f6b",
       "MOSFET_LOGIC_LEVEL_TRANSLATOR4"
+    ],
+    [
+      "34e5006d-2f61-4d7d-acbf-5a24a5d8c7fc",
+      "RS485_MAX486"
+    ],
+    [
+      "8f0f6c30-1fa5-47af-a908-64d0452989fe",
+      "CAN_TRANSCEIVER_ATA6562"
+    ],
+    [
+      "e46c25ff-852f-4c6f-87a8-4f698594cba1",
+      "MULTIPLEXER_SWITCH_WAS3157B-6"
+    ],
+    [
+      "047083e0-3635-4a91-810f-870f48791e28",
+      "MULTIPLEXER_SWITCH_WAS3157B-7"
+    ],
+    [
+      "2e21452f-cdd1-4ce6-a8e8-98e1abc18b72",
+      "RS485_MAX487"
     ]
   ],
   "text_variables": {}

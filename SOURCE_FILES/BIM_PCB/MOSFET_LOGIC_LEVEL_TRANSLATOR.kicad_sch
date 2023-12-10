@@ -4,6 +4,16 @@
 
   (paper "A4")
 
+  (title_block
+    (title "BIM BOARD")
+    (date "2023-12-06")
+    (rev "REV 2.0.0")
+    (company "GEVITON")
+    (comment 2 "Reviewed by: Timothy Kyalo")
+    (comment 3 "Designed By: Robert Mutura")
+    (comment 4 "BIM BOARD")
+  )
+
   (lib_symbols
     (symbol "Device:Q_NMOS_GSD" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (at 5.08 1.27 0)
@@ -274,7 +284,7 @@
     (stroke (width 0) (type default))
     (uuid 844df75f-eac5-4532-a576-86f70b2925bd)
   )
-  (wire (pts (xy 98.425 90.17) (xy 112.395 90.17))
+  (wire (pts (xy 98.425 90.17) (xy 84.455 90.17))
     (stroke (width 0) (type default))
     (uuid a3df2029-8471-46e7-a598-45717d1170bb)
   )

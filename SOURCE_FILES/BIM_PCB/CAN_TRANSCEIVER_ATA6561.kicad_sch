@@ -470,28 +470,21 @@
     (uuid b63271d3-c86d-4f99-80af-6afdb32a44d3)
   )
 
-  (global_label "B_to_CANH" (shape input) (at 152.4 78.74 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 7dab7bbc-d137-40d1-a9f5-415c160a71a2)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 152.4 65.7347 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "A_to_CANL" (shape input) (at 152.4 91.44 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid f2d80b81-be71-4bc7-9673-4ce44a3e2ad0)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 152.4 103.9615 90)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-
   (hierarchical_label "CAN_RX" (shape input) (at 74.93 83.82 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27) bold) (justify right))
     (uuid 04819db0-4dae-48ac-83e2-ccbf26f6c368)
   )
+  (hierarchical_label "A_to_CANL" (shape input) (at 152.4 91.44 270) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 85e69fb0-5696-4a72-8e12-5e65d3266a41)
+  )
   (hierarchical_label "CAN_STBY" (shape input) (at 74.93 91.44 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27) bold) (justify right))
     (uuid 8c93c2b1-326f-4702-bf44-f65fb23bf053)
+  )
+  (hierarchical_label "B_to_CANH" (shape input) (at 152.4 78.74 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid b87f1649-4143-4006-9642-b5a9f984da05)
   )
   (hierarchical_label "CAN_TX" (shape output) (at 74.93 81.28 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27) bold) (justify right))
@@ -520,6 +513,9 @@
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/9aa00ea0-8ab5-4ecf-8a0c-229fcfe4faab"
           (reference "C41") (unit 1)
         )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/8f0f6c30-1fa5-47af-a908-64d0452989fe"
+          (reference "C44") (unit 1)
+        )
       )
     )
   )
@@ -545,6 +541,9 @@
       (project "BIM_PCB"
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/9aa00ea0-8ab5-4ecf-8a0c-229fcfe4faab"
           (reference "C40") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/8f0f6c30-1fa5-47af-a908-64d0452989fe"
+          (reference "C43") (unit 1)
         )
       )
     )
@@ -572,6 +571,9 @@
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/9aa00ea0-8ab5-4ecf-8a0c-229fcfe4faab"
           (reference "R43") (unit 1)
         )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/8f0f6c30-1fa5-47af-a908-64d0452989fe"
+          (reference "R59") (unit 1)
+        )
       )
     )
   )
@@ -596,6 +598,9 @@
       (project "BIM_PCB"
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/9aa00ea0-8ab5-4ecf-8a0c-229fcfe4faab"
           (reference "#PWR076") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/8f0f6c30-1fa5-47af-a908-64d0452989fe"
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -622,6 +627,9 @@
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/9aa00ea0-8ab5-4ecf-8a0c-229fcfe4faab"
           (reference "#PWR079") (unit 1)
         )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/8f0f6c30-1fa5-47af-a908-64d0452989fe"
+          (reference "#PWR093") (unit 1)
+        )
       )
     )
   )
@@ -646,6 +654,9 @@
       (project "BIM_PCB"
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/9aa00ea0-8ab5-4ecf-8a0c-229fcfe4faab"
           (reference "#PWR075") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/8f0f6c30-1fa5-47af-a908-64d0452989fe"
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -672,6 +683,9 @@
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/9aa00ea0-8ab5-4ecf-8a0c-229fcfe4faab"
           (reference "#PWR081") (unit 1)
         )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/8f0f6c30-1fa5-47af-a908-64d0452989fe"
+          (reference "#PWR095") (unit 1)
+        )
       )
     )
   )
@@ -697,6 +711,9 @@
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/9aa00ea0-8ab5-4ecf-8a0c-229fcfe4faab"
           (reference "#PWR078") (unit 1)
         )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/8f0f6c30-1fa5-47af-a908-64d0452989fe"
+          (reference "#PWR092") (unit 1)
+        )
       )
     )
   )
@@ -721,6 +738,9 @@
       (project "BIM_PCB"
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/9aa00ea0-8ab5-4ecf-8a0c-229fcfe4faab"
           (reference "#PWR080") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/8f0f6c30-1fa5-47af-a908-64d0452989fe"
+          (reference "#PWR094") (unit 1)
         )
       )
     )
@@ -754,6 +774,9 @@
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/9aa00ea0-8ab5-4ecf-8a0c-229fcfe4faab"
           (reference "U9") (unit 1)
         )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/8f0f6c30-1fa5-47af-a908-64d0452989fe"
+          (reference "U13") (unit 1)
+        )
       )
     )
   )
@@ -778,6 +801,9 @@
       (project "BIM_PCB"
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/9aa00ea0-8ab5-4ecf-8a0c-229fcfe4faab"
           (reference "#PWR077") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/8f0f6c30-1fa5-47af-a908-64d0452989fe"
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -804,6 +830,9 @@
       (project "BIM_PCB"
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/9aa00ea0-8ab5-4ecf-8a0c-229fcfe4faab"
           (reference "R44") (unit 1)
+        )
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/8f0f6c30-1fa5-47af-a908-64d0452989fe"
+          (reference "R60") (unit 1)
         )
       )
     )
