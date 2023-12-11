@@ -111,7 +111,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.19999999999999998,
+        "min_clearance": 0.128,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.25,
         "min_hole_clearance": 0.25,
@@ -456,7 +456,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../step/BIM_PCB.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -559,14 +559,6 @@
     [
       "8f0f6c30-1fa5-47af-a908-64d0452989fe",
       "CAN_TRANSCEIVER_ATA6562"
-    ],
-    [
-      "e46c25ff-852f-4c6f-87a8-4f698594cba1",
-      "MULTIPLEXER_SWITCH_WAS3157B-6"
-    ],
-    [
-      "047083e0-3635-4a91-810f-870f48791e28",
-      "MULTIPLEXER_SWITCH_WAS3157B-7"
     ],
     [
       "2e21452f-cdd1-4ce6-a8e8-98e1abc18b72",
