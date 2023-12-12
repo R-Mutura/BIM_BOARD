@@ -525,8 +525,8 @@
       "RS485_MAX485"
     ],
     [
-      "eafd7aad-682e-4ec9-bdb3-c64de2178f38",
-      "BUCK_ADP2504ACPZ-R7"
+      "5db0ebc2-0f98-4304-ae29-c0117022d2f4",
+      "MULTIPLEXER_SWITCH_WAS3157B-6"
     ],
     [
       "46958771-2a66-49fe-96df-db202d7038b2",
@@ -559,6 +559,10 @@
     [
       "8f0f6c30-1fa5-47af-a908-64d0452989fe",
       "CAN_TRANSCEIVER_ATA6562"
+    ],
+    [
+      "8d3bb6cf-80e3-4ef9-85b1-eb48718a3ae1",
+      "SY8089_BUCK_CONVERTER"
     ],
     [
       "2e21452f-cdd1-4ce6-a8e8-98e1abc18b72",

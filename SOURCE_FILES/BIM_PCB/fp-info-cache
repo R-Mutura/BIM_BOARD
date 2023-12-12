@@ -1,4 +1,4 @@
-23668832700559418
+23670535067642620
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60824,6 +60824,13 @@ PowerDI 0.65
 3
 MACHADA_footprints
 ECOBODDA
+
+
+0
+0
+0
+MACHADA_footprints
+ECOBODDA_medium
 
 
 0
