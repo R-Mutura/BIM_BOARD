@@ -396,23 +396,17 @@
         )
       )
       (project "BIM_PCB"
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
-          (reference "Q9") (unit 1)
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/edbaae4f-de44-432d-a3ab-ffa1b686e8fe"
+          (reference "Q4") (unit 1)
         )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
-          (reference "Q10") (unit 1)
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/7d84c724-e693-4753-b610-031b5bfcbd41"
+          (reference "Q7") (unit 1)
         )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
-          (reference "Q11") (unit 1)
-        )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/0c226a2b-7062-4290-934f-18e7ef8514ce"
           (reference "Q8") (unit 1)
         )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
-          (reference "Q6") (unit 1)
-        )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
-          (reference "Q7") (unit 1)
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/592382d8-1d8e-43ab-883d-cb4e58136da0"
+          (reference "Q9") (unit 1)
         )
       )
       (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
@@ -486,23 +480,17 @@
         )
       )
       (project "BIM_PCB"
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
-          (reference "R51") (unit 1)
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/edbaae4f-de44-432d-a3ab-ffa1b686e8fe"
+          (reference "R19") (unit 1)
         )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
-          (reference "R54") (unit 1)
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/7d84c724-e693-4753-b610-031b5bfcbd41"
+          (reference "R50") (unit 1)
         )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
-          (reference "R57") (unit 1)
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/0c226a2b-7062-4290-934f-18e7ef8514ce"
+          (reference "R53") (unit 1)
         )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
-          (reference "R48") (unit 1)
-        )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
-          (reference "R35") (unit 1)
-        )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
-          (reference "R45") (unit 1)
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/592382d8-1d8e-43ab-883d-cb4e58136da0"
+          (reference "R56") (unit 1)
         )
       )
       (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
@@ -576,23 +564,17 @@
         )
       )
       (project "BIM_PCB"
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
-          (reference "R49") (unit 1)
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/edbaae4f-de44-432d-a3ab-ffa1b686e8fe"
+          (reference "R17") (unit 1)
         )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
-          (reference "R52") (unit 1)
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/7d84c724-e693-4753-b610-031b5bfcbd41"
+          (reference "R48") (unit 1)
         )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
-          (reference "R55") (unit 1)
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/0c226a2b-7062-4290-934f-18e7ef8514ce"
+          (reference "R51") (unit 1)
         )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
-          (reference "R46") (unit 1)
-        )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
-          (reference "R33") (unit 1)
-        )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
-          (reference "R36") (unit 1)
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/592382d8-1d8e-43ab-883d-cb4e58136da0"
+          (reference "R54") (unit 1)
         )
       )
       (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"
@@ -666,23 +648,17 @@
         )
       )
       (project "BIM_PCB"
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/9c83602d-c851-4def-afb0-48963dca7404"
-          (reference "R50") (unit 1)
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/edbaae4f-de44-432d-a3ab-ffa1b686e8fe"
+          (reference "R18") (unit 1)
         )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/16769502-6cd7-4d90-ac70-b9f1d3d3fa47"
-          (reference "R53") (unit 1)
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/7d84c724-e693-4753-b610-031b5bfcbd41"
+          (reference "R49") (unit 1)
         )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/eba1f2a4-2c5d-4822-a4ed-1865479f0f6b"
-          (reference "R56") (unit 1)
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/0c226a2b-7062-4290-934f-18e7ef8514ce"
+          (reference "R52") (unit 1)
         )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/57f051e4-1bb9-4052-b3bd-86c08fdbfa1f"
-          (reference "R47") (unit 1)
-        )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/ad201ec8-e911-4cc6-b434-19a9fff4949b"
-          (reference "R34") (unit 1)
-        )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/35710b89-d3a5-410b-ab99-18b25888e68c/d71116eb-94f5-4d19-8fe2-1d5d56dfd59e"
-          (reference "R40") (unit 1)
+        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/592382d8-1d8e-43ab-883d-cb4e58136da0"
+          (reference "R55") (unit 1)
         )
       )
       (project "BI_DIRECTIONAL_LOGIC_LEVEL_TRANSLATOR_MOSFET-use"

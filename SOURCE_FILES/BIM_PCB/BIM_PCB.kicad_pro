@@ -509,18 +509,6 @@
       "RTC_MODULE_IC_PCF8523"
     ],
     [
-      "35710b89-d3a5-410b-ab99-18b25888e68c",
-      "SIM7000_GPRS_MODULE"
-    ],
-    [
-      "ad201ec8-e911-4cc6-b434-19a9fff4949b",
-      "MOSFET_LOGIC_LEVEL_TRANSLATOR2"
-    ],
-    [
-      "d71116eb-94f5-4d19-8fe2-1d5d56dfd59e",
-      "MOSFET_LOGIC_LEVEL_TRANSLATOR3"
-    ],
-    [
       "1465f310-1de3-424a-8f4a-a980ed628081",
       "RS485_MAX485"
     ],
@@ -537,22 +525,6 @@
       "CAN_TRANSCEIVER_ATA6561"
     ],
     [
-      "57f051e4-1bb9-4052-b3bd-86c08fdbfa1f",
-      "MOSFET_LOGIC_LEVEL_TRANSLATOR"
-    ],
-    [
-      "9c83602d-c851-4def-afb0-48963dca7404",
-      "MOSFET_LOGIC_LEVEL_TRANSLATOR5"
-    ],
-    [
-      "16769502-6cd7-4d90-ac70-b9f1d3d3fa47",
-      "MOSFET_LOGIC_LEVEL_TRANSLATOR1"
-    ],
-    [
-      "eba1f2a4-2c5d-4822-a4ed-1865479f0f6b",
-      "MOSFET_LOGIC_LEVEL_TRANSLATOR4"
-    ],
-    [
       "34e5006d-2f61-4d7d-acbf-5a24a5d8c7fc",
       "RS485_MAX486"
     ],
@@ -561,12 +533,36 @@
       "CAN_TRANSCEIVER_ATA6562"
     ],
     [
+      "edbaae4f-de44-432d-a3ab-ffa1b686e8fe",
+      "MOSFET_LOGIC_LEVEL_TRANSLATOR6"
+    ],
+    [
       "8d3bb6cf-80e3-4ef9-85b1-eb48718a3ae1",
       "SY8089_BUCK_CONVERTER"
     ],
     [
+      "2c1557a8-70b5-4535-b084-9e551cb55dcd",
+      "A9G_GSM_GPRS_MODULE"
+    ],
+    [
       "2e21452f-cdd1-4ce6-a8e8-98e1abc18b72",
       "RS485_MAX487"
+    ],
+    [
+      "4ded7b71-30ec-4263-8ef5-be9822f9dd9f",
+      "TF_CARD_CONN"
+    ],
+    [
+      "7d84c724-e693-4753-b610-031b5bfcbd41",
+      "MOSFET_LOGIC_LEVEL_TRANSLATOR7"
+    ],
+    [
+      "0c226a2b-7062-4290-934f-18e7ef8514ce",
+      "MOSFET_LOGIC_LEVEL_TRANSLATOR8"
+    ],
+    [
+      "592382d8-1d8e-43ab-883d-cb4e58136da0",
+      "MOSFET_LOGIC_LEVEL_TRANSLATOR9"
     ]
   ],
   "text_variables": {}

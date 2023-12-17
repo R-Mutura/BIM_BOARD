@@ -1,4 +1,4 @@
-23670535067642620
+23677345746019622
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60774,12 +60774,26 @@ Yellow 5381 Series LED
 2
 2
 MACHADA_footprints
+1.8 inch SPI TFT LCD Display
+
+
+0
+12
+12
+MACHADA_footprints
 2pin_2mm_jst_v_bat_S2B-PH-SM4-TB
 2pin_2mm_jst_v_bat_S2B-PH-SM4-TB
 2pin_2mm_jst_v_bat_S2B-PH-SM4-TB
 0
 4
 4
+MACHADA_footprints
+A9G_MODULE
+
+
+0
+0
+0
 MACHADA_footprints
 AMPHENOL_10118194-0001LF
 
@@ -60941,6 +60955,20 @@ LED_APHF1608SEEQBDZGKC
 0
 4
 4
+MACHADA_footprints
+LED_SK6805_custom
+https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf
+LED RGB NeoPixel Nano
+0
+4
+4
+MACHADA_footprints
+MDE0530-xxx
+
+
+0
+2
+2
 MACHADA_footprints
 MOLEX_503398-1892
 
