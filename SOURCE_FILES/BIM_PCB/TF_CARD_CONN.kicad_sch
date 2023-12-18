@@ -495,6 +495,11 @@
     (uuid fe71d748-f162-416e-9d3e-90d37d6f1439)
   )
 
+  (text "TF/SD CARD" (at 120.65 36.83 0)
+    (effects (font (face "Agency FB") (size 6 6) (thickness 1.2) bold) (justify left bottom))
+    (uuid c73beb3e-3c58-4fc8-a2bd-cc69f19ba430)
+  )
+
   (label "2V8" (at 152.4 86.36 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4a425b79-37fb-4772-8117-bb6a1b282935)
