@@ -1170,7 +1170,7 @@
     (property "Value" "8.2p" (at 160.02 101.6063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 157.48 99.695 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 157.48 99.695 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 157.48 99.695 0)

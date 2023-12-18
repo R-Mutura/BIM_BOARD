@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid bf650b27-24c9-4d3d-b09c-cb4c9923b0d6)
+  (uuid 77f585ee-85cf-40d1-b5d8-3db1edac9c73)
 
   (paper "A4")
 
@@ -5036,7 +5036,7 @@
       )
       (project "BIM_PCB"
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd"
-          (reference "C?") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
       (project "ELIESTER_V2"
