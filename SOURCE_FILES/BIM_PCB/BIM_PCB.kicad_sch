@@ -2238,7 +2238,7 @@
   (symbol (lib_id "power:+5V") (at 233.68 208.915 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02a8e0e1-8e57-4260-b25e-91b61859f38b)
-    (property "Reference" "#PWR096" (at 233.68 212.725 0)
+    (property "Reference" "#PWR016" (at 233.68 212.725 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 233.68 205.74 0)
@@ -2253,9 +2253,6 @@
     (pin "1" (uuid 504026e7-fb4a-4e26-ac03-4f914ff4b432))
     (instances
       (project "BIM_PCB"
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/f23c600c-7725-4edd-91d3-0267a41a1c43"
-          (reference "#PWR096") (unit 1)
-        )
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca"
           (reference "#PWR016") (unit 1)
         )
@@ -2487,7 +2484,7 @@
   (symbol (lib_id "power:GND") (at 377.825 243.205 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23e46a6d-0877-49a0-9112-51bcc3b09bf2)
-    (property "Reference" "#PWR057" (at 377.825 249.555 0)
+    (property "Reference" "#PWR03" (at 377.825 249.555 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 377.825 247.015 0)
@@ -2502,9 +2499,6 @@
     (pin "1" (uuid 638fbe85-0c9c-4000-bf93-b7977e633867))
     (instances
       (project "BIM_PCB"
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/1465f310-1de3-424a-8f4a-a980ed628081"
-          (reference "#PWR057") (unit 1)
-        )
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca"
           (reference "#PWR03") (unit 1)
         )

@@ -586,9 +586,6 @@
         )
       )
       (project "BIM_PCB"
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd"
-          (reference "R?") (unit 1)
-        )
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/4ded7b71-30ec-4263-8ef5-be9822f9dd9f"
           (reference "R46") (unit 1)
         )
@@ -625,9 +622,6 @@
         )
       )
       (project "BIM_PCB"
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd"
-          (reference "R?") (unit 1)
-        )
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/4ded7b71-30ec-4263-8ef5-be9822f9dd9f"
           (reference "R45") (unit 1)
         )
@@ -664,9 +658,6 @@
         )
       )
       (project "BIM_PCB"
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd"
-          (reference "C?") (unit 1)
-        )
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/4ded7b71-30ec-4263-8ef5-be9822f9dd9f"
           (reference "C22") (unit 1)
         )
@@ -702,9 +693,6 @@
         )
       )
       (project "BIM_PCB"
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd"
-          (reference "#PWR0129") (unit 1)
-        )
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/4ded7b71-30ec-4263-8ef5-be9822f9dd9f"
           (reference "#PWR0129") (unit 1)
         )
@@ -735,9 +723,6 @@
         )
       )
       (project "BIM_PCB"
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd"
-          (reference "#PWR0130") (unit 1)
-        )
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/4ded7b71-30ec-4263-8ef5-be9822f9dd9f"
           (reference "#PWR0130") (unit 1)
         )
@@ -779,9 +764,6 @@
         )
       )
       (project "BIM_PCB"
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd"
-          (reference "J?") (unit 1)
-        )
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/4ded7b71-30ec-4263-8ef5-be9822f9dd9f"
           (reference "J4") (unit 1)
         )
@@ -813,9 +795,6 @@
         )
       )
       (project "BIM_PCB"
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd"
-          (reference "C?") (unit 1)
-        )
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/4ded7b71-30ec-4263-8ef5-be9822f9dd9f"
           (reference "C21") (unit 1)
         )
@@ -851,9 +830,6 @@
         )
       )
       (project "BIM_PCB"
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd"
-          (reference "#PWR0127") (unit 1)
-        )
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/4ded7b71-30ec-4263-8ef5-be9822f9dd9f"
           (reference "#PWR0127") (unit 1)
         )
@@ -890,9 +866,6 @@
         )
       )
       (project "BIM_PCB"
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd"
-          (reference "R?") (unit 1)
-        )
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/4ded7b71-30ec-4263-8ef5-be9822f9dd9f"
           (reference "R42") (unit 1)
         )
@@ -929,9 +902,6 @@
         )
       )
       (project "BIM_PCB"
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd"
-          (reference "R?") (unit 1)
-        )
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/4ded7b71-30ec-4263-8ef5-be9822f9dd9f"
           (reference "R41") (unit 1)
         )
@@ -968,9 +938,6 @@
         )
       )
       (project "BIM_PCB"
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd"
-          (reference "R?") (unit 1)
-        )
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/4ded7b71-30ec-4263-8ef5-be9822f9dd9f"
           (reference "R47") (unit 1)
         )
@@ -1007,9 +974,6 @@
         )
       )
       (project "BIM_PCB"
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd"
-          (reference "R?") (unit 1)
-        )
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/4ded7b71-30ec-4263-8ef5-be9822f9dd9f"
           (reference "R40") (unit 1)
         )

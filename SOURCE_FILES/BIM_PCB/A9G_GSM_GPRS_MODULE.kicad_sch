@@ -3604,9 +3604,6 @@
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd"
           (reference "C15") (unit 1)
         )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/4ded7b71-30ec-4263-8ef5-be9822f9dd9f"
-          (reference "C?") (unit 1)
-        )
       )
       (project "sd_card"
         (path "/f3731079-05a9-45bd-b73a-f08e88717242"
@@ -3781,9 +3778,6 @@
       )
       (project "BIM_PCB"
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd"
-          (reference "#PWR0125") (unit 1)
-        )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/4ded7b71-30ec-4263-8ef5-be9822f9dd9f"
           (reference "#PWR0125") (unit 1)
         )
       )
@@ -4124,7 +4118,7 @@
   (symbol (lib_id "Regulator_Linear:XC6206PxxxMR") (at 259.08 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75b72521-1fe0-427b-ba53-ce7b2dfe43d6)
-    (property "Reference" "U?" (at 259.08 100.33 0)
+    (property "Reference" "U17" (at 259.08 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "XC6206PxxxMR" (at 259.08 102.87 0)
@@ -4141,9 +4135,6 @@
     (pin "3" (uuid e8481ab7-b914-4d38-9311-59c1302292cf))
     (instances
       (project "BIM_PCB"
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/4ded7b71-30ec-4263-8ef5-be9822f9dd9f"
-          (reference "U?") (unit 1)
-        )
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd"
           (reference "U17") (unit 1)
         )
@@ -4818,9 +4809,6 @@
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd"
           (reference "C16") (unit 1)
         )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/4ded7b71-30ec-4263-8ef5-be9822f9dd9f"
-          (reference "C?") (unit 1)
-        )
       )
       (project "sd_card"
         (path "/f3731079-05a9-45bd-b73a-f08e88717242"
@@ -4989,9 +4977,6 @@
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd"
           (reference "C14") (unit 1)
         )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/4ded7b71-30ec-4263-8ef5-be9822f9dd9f"
-          (reference "C?") (unit 1)
-        )
       )
       (project "sd_card"
         (path "/f3731079-05a9-45bd-b73a-f08e88717242"
@@ -5127,9 +5112,6 @@
       (project "BIM_PCB"
         (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd"
           (reference "C17") (unit 1)
-        )
-        (path "/b79ebed7-e146-448b-8dab-0aefb3e182ca/2c1557a8-70b5-4535-b084-9e551cb55dcd/4ded7b71-30ec-4263-8ef5-be9822f9dd9f"
-          (reference "C?") (unit 1)
         )
       )
       (project "sd_card"
