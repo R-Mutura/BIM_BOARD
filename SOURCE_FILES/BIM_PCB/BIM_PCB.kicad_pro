@@ -534,10 +534,6 @@
       "CAN_TRANSCEIVER_ATA6562"
     ],
     [
-      "edbaae4f-de44-432d-a3ab-ffa1b686e8fe",
-      "MOSFET_LOGIC_LEVEL_TRANSLATOR6"
-    ],
-    [
       "8d3bb6cf-80e3-4ef9-85b1-eb48718a3ae1",
       "SY8089_BUCK_CONVERTER"
     ],
@@ -550,20 +546,8 @@
       "RS485_MAX487"
     ],
     [
-      "4ded7b71-30ec-4263-8ef5-be9822f9dd9f",
+      "6157cf37-b79c-4841-a74d-e2ebe383ec15",
       "TF_CARD_CONN"
-    ],
-    [
-      "7d84c724-e693-4753-b610-031b5bfcbd41",
-      "MOSFET_LOGIC_LEVEL_TRANSLATOR7"
-    ],
-    [
-      "0c226a2b-7062-4290-934f-18e7ef8514ce",
-      "MOSFET_LOGIC_LEVEL_TRANSLATOR8"
-    ],
-    [
-      "592382d8-1d8e-43ab-883d-cb4e58136da0",
-      "MOSFET_LOGIC_LEVEL_TRANSLATOR9"
     ]
   ],
   "text_variables": {}
